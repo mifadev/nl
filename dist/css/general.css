@@ -1,13 +1,36 @@
+/* ============================================================================
+GENERAL
+============================================================================= */
+/* ********** START: Main Wrapper Tags ********** */
+html {
+  font-size: 16px;
+  color: #333;
+  background-color: #f9f9f9;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+}
+/* ********** END: Main Wrapper Tags ********** */
+/* ============================================================================
+GENERAL MODULES
+============================================================================= */
 /* ********** START: Page Section ********** */
 .page-section {
   padding: 2.5rem 0;
 }
-.page-section--center {
-  text-align: center;
-}
 .page-section__inner {
   width: 90%;
-  max-width: 96rem;
+  max-width: 100rem;
   margin: 0 auto;
 }
 /* ********** END: Page Section ********** */
