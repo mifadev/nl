@@ -1,5 +1,6 @@
-var gulp = require('gulp');
-var less = require('gulp-less');
+var gulp = require('gulp'),
+    pug = require('gulp-pug'),
+    less = require('gulp-less');
 
 gulp.task('less', function () {
   return gulp.src('app/less/*.less')
